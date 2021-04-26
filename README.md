@@ -17,20 +17,18 @@ docker compose up
 mvn clean package -DskipTests
 ```
 
-### rest
+### Start rest module
 ```
 java -jar rest/target/rest-0.0.1.jar
 ```
 
-### calculator
+### Start calculator module
 ```
 java -jar calculator/target/calculator-0.0.1.jar
 ```
 
-### Run test-cases
-```
-mvn test
-```
+## SwaggerUI
+Swagger UI is used to document and test the REST API from the browser. It can be accessed from this address (http://localhost:8081/calculator/swagger-ui.html)
 
 ## Request Examples
 ---
